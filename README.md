@@ -36,9 +36,10 @@ NEWS_API_KEY=your_news_api_key
 GOOGLE_CSE_API_KEY=your_google_cse_api_key
 GOOGLE_CSE_ID=your_google_cse_id
 ```
-3. ```bash 
-./scripts/run.sh
-``` 
+3. Run the project:
+    ```bash 
+    ./scripts/run.sh
+    ``` 
 
 ## Docker Setup
 1. Build the docker image:
