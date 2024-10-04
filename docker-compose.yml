@@ -1,0 +1,16 @@
+version: '3.8'  
+services:
+  compliancetool-news-fetcher:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app  
+    environment:
+      - NEWS_API_KEY=${NEWS_API_KEY}
+      - CSE_API_KEY=${CSE_API_KEY}
+      - CSE_ID=${CSE_ID}
+      - SCRAPEOPS_API_KEY=${SCRAPEOPS_API_KEY}
+    stdin_open: true  
+    tty: true         
+
