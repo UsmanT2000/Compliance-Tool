@@ -27,7 +27,7 @@ Follow the steps below to run the project locally or in a Docker environment.
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/compliance-tool.git
-   cd compliance-tool
+   cd Compliance-Tool
    ```
 2. Set up environment variables: Ensure you have the necessary API keys for NewsAPI and Google Custom Search Engine set in your environment
 .env file content
